@@ -1,0 +1,89 @@
+<svg id="fig-collapse" aria-labelledby="fig-collapse-title fig-collapse-desc" viewBox="0 0 750 310" xmlns="http://www.w3.org/2000/svg" role="img" style="width: 100%; height: auto;">
+  <title id="fig-collapse-title">Константная инициализация схлопывает скрытый слой</title>
+  <desc id="fig-collapse-desc">Слева сеть с M одинаковыми скрытыми нейронами, справа эквивалентная сеть с одним скрытым нейроном и выходными весами, умноженными на M.</desc>
+  <defs>
+    <mask id="fig-collapse-gaps" maskUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="750" height="310" fill="white"/>
+      <rect x="104.0" y="37.0" width="24.0" height="15" fill="black" rx="2"/>
+      <rect x="226.0" y="51.0" width="24.0" height="15" fill="black" rx="2"/>
+      <rect x="493.0" y="75.0" width="24.0" height="15" fill="black" rx="2"/>
+      <rect x="607.0" y="79.0" width="50.0" height="15" fill="black" rx="2"/>
+      <rect x="162.0" y="160.0" width="32.0" height="25" fill="black" rx="2"/>
+    </mask>
+    <marker id="fig-collapse-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrowhead"/>
+    </marker>
+  </defs>
+  <style>
+    #fig-collapse { font-family: var(--bodyFont); }
+    #fig-collapse .node { fill: #F1EFE8; stroke: #5F5E5A; stroke-width: 1; }
+    #fig-collapse .node-t { fill: #FAECE7; stroke: #993C1D; stroke-width: 1; }
+    #fig-collapse .e1 { stroke: #D85A30; fill: none; }
+    #fig-collapse .e2 { stroke: #1D9E75; fill: none; }
+    #fig-collapse .neutral { stroke: #B4B2A9; fill: none; }
+    #fig-collapse .arrowhead { fill: #B4B2A9; }
+    #fig-collapse .txt { fill: #52514E; }
+    #fig-collapse .txt-strong { fill: #0B0B0B; font-weight: 500; }
+    :root[saved-theme="dark"] #fig-collapse .node { fill: #3A3A38; stroke: #9A9A94; }
+    :root[saved-theme="dark"] #fig-collapse .node-t { fill: #4A2418; stroke: #D85A30; }
+    :root[saved-theme="dark"] #fig-collapse .neutral { stroke: #6E6D68; }
+    :root[saved-theme="dark"] #fig-collapse .arrowhead { fill: #6E6D68; }
+    :root[saved-theme="dark"] #fig-collapse .txt { fill: #B4B2A9; }
+    :root[saved-theme="dark"] #fig-collapse .txt-strong { fill: #EDEDEA; }
+  </style>
+  <line x1="62" y1="75" x2="178" y2="40" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="75" x2="178" y2="85" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="75" x2="178" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="75" x2="178" y2="220" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="130" x2="178" y2="40" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="130" x2="178" y2="85" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="130" x2="178" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="130" x2="178" y2="220" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="185" x2="178" y2="40" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="185" x2="178" y2="85" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="185" x2="178" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="62" y1="185" x2="178" y2="220" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="40" x2="298" y2="100" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="40" x2="298" y2="160" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="85" x2="298" y2="100" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="85" x2="298" y2="160" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="130" x2="298" y2="100" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="130" x2="298" y2="160" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="220" x2="298" y2="100" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="178" y1="220" x2="298" y2="160" class="e2" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="452" y1="75" x2="568" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="452" y1="130" x2="568" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="452" y1="185" x2="568" y2="130" class="e1" stroke-width="2" mask="url(#fig-collapse-gaps)"/>
+  <line x1="568" y1="130" x2="688" y2="100" class="e2" stroke-width="4" mask="url(#fig-collapse-gaps)"/>
+  <line x1="568" y1="130" x2="688" y2="160" class="e2" stroke-width="4" mask="url(#fig-collapse-gaps)"/>
+  <circle cx="62" cy="75" r="13" class="node"/>
+  <circle cx="62" cy="130" r="13" class="node"/>
+  <circle cx="62" cy="185" r="13" class="node"/>
+  <circle cx="178" cy="40" r="15" class="node-t"/>
+  <circle cx="178" cy="85" r="15" class="node-t"/>
+  <circle cx="178" cy="130" r="15" class="node-t"/>
+  <circle cx="178" cy="220" r="15" class="node-t"/>
+  <circle cx="298" cy="100" r="15" class="node"/>
+  <circle cx="298" cy="160" r="15" class="node"/>
+  <circle cx="452" cy="75" r="13" class="node"/>
+  <circle cx="452" cy="130" r="13" class="node"/>
+  <circle cx="452" cy="185" r="13" class="node"/>
+  <circle cx="568" cy="130" r="21" class="node-t"/>
+  <circle cx="688" cy="100" r="15" class="node"/>
+  <circle cx="688" cy="160" r="15" class="node"/>
+  <line x1="340" y1="130" x2="412" y2="130" class="neutral" stroke-width="1.5" marker-end="url(#fig-collapse-arrow)"/>
+  <text x="116" y="48" class="txt" font-size="12" text-anchor="middle">W<tspan dy='4' font-size='9'>1</tspan></text>
+  <text x="238" y="62" class="txt" font-size="12" text-anchor="middle">W<tspan dy='4' font-size='9'>2</tspan></text>
+  <text x="505" y="86" class="txt" font-size="12" text-anchor="middle">W<tspan dy='4' font-size='9'>1</tspan></text>
+  <text x="632" y="90" class="txt" font-size="12" text-anchor="middle">M · W<tspan dy='4' font-size='9'>2</tspan></text>
+  <text x="178" y="181" class="txt" font-size="22" text-anchor="middle">···</text>
+  <text x="62" y="218" class="txt" font-size="12" text-anchor="middle">вход</text>
+  <text x="178" y="252" class="txt" font-size="12" text-anchor="middle">скрытые</text>
+  <text x="298" y="192" class="txt" font-size="12" text-anchor="middle">выход</text>
+  <text x="452" y="218" class="txt" font-size="12" text-anchor="middle">вход</text>
+  <text x="568" y="172" class="txt" font-size="12" text-anchor="middle">скрытый</text>
+  <text x="688" y="192" class="txt" font-size="12" text-anchor="middle">выход</text>
+  <text x="178" y="285" class="txt-strong" font-size="13" text-anchor="middle">M нейронов, все веса одинаковы</text>
+  <text x="568" y="285" class="txt-strong" font-size="13" text-anchor="middle">один нейрон, выходные веса ×M</text>
+  <text x="376" y="112" class="txt" font-size="11" text-anchor="middle">это то же, что</text>
+</svg>

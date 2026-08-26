@@ -83,6 +83,9 @@ plugins:
     layout:
       position: right
       priority: 30
+  - source: "./quartz/plugins/local/inline-svg"
+    enabled: true
+    order: 55
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:

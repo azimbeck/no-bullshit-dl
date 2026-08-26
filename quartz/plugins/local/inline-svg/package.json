@@ -1,0 +1,27 @@
+{
+  "name": "quartz-plugin-inline-svg",
+  "version": "1.0.0",
+  "description": "Replaces markdown image references to .svg files with the inlined SVG element.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "inline-svg",
+    "displayName": "Inline SVG",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 55,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "optionSchema": {}
+  }
+}
