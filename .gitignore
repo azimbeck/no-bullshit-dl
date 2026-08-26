@@ -12,3 +12,12 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+
+/cache/
+/.claude/
+/notebooks/
+
+#symlinks
+/AGENTS.md
+/CLAUDE.md

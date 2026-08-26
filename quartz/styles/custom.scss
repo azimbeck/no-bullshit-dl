@@ -1,3 +1,55 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+@media all and ($tablet), all and ($desktop) {
+  :root[reader-mode="on"] {
+    & .page > #quartz-body {
+      grid-template-columns: 0 auto 0;
+      column-gap: 0;
+
+      @media all and ($tablet) {
+        grid-template-columns: 0 auto;
+      }
+    }
+
+    & .sidebar.right {
+      display: none;
+    }
+
+    & .sidebar.left {
+      opacity: 1;
+      width: 0;
+      height: 0;
+      padding: 0;
+      overflow: visible;
+
+      & > *:not(.flex-component) {
+        display: none;
+      }
+
+      & > .flex-component {
+        position: fixed;
+        top: 1.5rem;
+        left: 1.5rem;
+        z-index: 10;
+
+        & .search {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media all and ($mobile) {
+  :root[reader-mode="on"] {
+    & .sidebar.left {
+      opacity: 1;
+    }
+
+    & .sidebar.right {
+      display: none;
+    }
+  }
+}
