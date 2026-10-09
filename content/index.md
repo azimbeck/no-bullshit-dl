@@ -9,6 +9,7 @@ title: Deep Learning без ху.ни
 ## Материалы
 
 - [[constant-init|Почему нельзя инициализировать веса константой]]
+- [[classification-segmentation-metrics|Метрики для классификации/сегментации]]
 - [[derivative|Как брать производную]]
 - [[function-research|Исследование функции]]
 - [[parameters|Способы решения задач с параметрами]]
