@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Deep Learning без ху.ни
+  pageTitle: Deep Learning без херни
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
